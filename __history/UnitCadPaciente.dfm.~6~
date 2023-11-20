@@ -1,0 +1,122 @@
+object formCadPacientes: TformCadPacientes
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Cadastro de Pacientes'
+  ClientHeight = 442
+  ClientWidth = 628
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  KeyPreview = True
+  Position = poScreenCenter
+  OnKeyPress = FormKeyPress
+  TextHeight = 15
+  object Label2: TLabel
+    Left = 8
+    Top = 107
+    Width = 11
+    Height = 15
+    Caption = 'ID'
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 163
+    Width = 89
+    Height = 15
+    Caption = 'Nome Completo'
+  end
+  object Label4: TLabel
+    Left = 136
+    Top = 107
+    Width = 21
+    Height = 15
+    Caption = 'CPF'
+  end
+  object Label5: TLabel
+    Left = 8
+    Top = 219
+    Width = 44
+    Height = 15
+    Caption = 'Telefone'
+  end
+  object TLabel
+    Left = 160
+    Top = 219
+    Width = 91
+    Height = 15
+    Caption = 'Data do Cadastro'
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 628
+    Height = 81
+    Align = alTop
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 24
+      Top = 21
+      Width = 205
+      Height = 30
+      Caption = 'Cadasto de Pacientes'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'Segoe UI'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object DBEdit1: TDBEdit
+    Left = 8
+    Top = 128
+    Width = 89
+    Height = 23
+    TabOrder = 1
+  end
+  object DBEdit2: TDBEdit
+    Left = 136
+    Top = 128
+    Width = 185
+    Height = 23
+    TabOrder = 2
+  end
+  object DBEdit3: TDBEdit
+    Left = 8
+    Top = 184
+    Width = 313
+    Height = 23
+    TabOrder = 3
+  end
+  object DBEdit4: TDBEdit
+    Left = 8
+    Top = 240
+    Width = 121
+    Height = 23
+    TabOrder = 4
+  end
+  object DBEdit5: TDBEdit
+    Left = 160
+    Top = 240
+    Width = 161
+    Height = 23
+    TabOrder = 5
+  end
+  object DBGrid1: TDBGrid
+    Left = 356
+    Top = 128
+    Width = 264
+    Height = 289
+    TabOrder = 6
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -12
+    TitleFont.Name = 'Segoe UI'
+    TitleFont.Style = []
+  end
+end
